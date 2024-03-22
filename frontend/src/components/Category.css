@@ -1,0 +1,44 @@
+.category-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    background: linear-gradient(35deg, #494949, #313131);
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    transform: scale(0.5);
+  }
+  
+  .category-text {
+    color: white;
+    font-size: 0.8rem;
+  }
+  
+  .category-icon {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .category-link.active {
+    background: linear-gradient(to right, #f27121, #e94057);
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .category-link {
+      width: 5rem;
+      height: 5rem;
+    }
+  
+    .category-text {
+      font-size: 0.7rem;
+    }
+  
+    .category-icon {
+      font-size: 1.2rem;
+    }
+  }
+  
